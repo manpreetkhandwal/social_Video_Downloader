@@ -64,7 +64,7 @@ const App = () => {
       setTimeout(() => {
         resolve({
           success: true,
-          downloadUrl: `https://///download?url=${encodeURIComponent(url)}&platform=${platform}`,
+          downloadUrl: `https://download?url=${encodeURIComponent(url)}&platform=${platform}`,
           message: 'Video ready for download'
         });
       }, 1500);
